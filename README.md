@@ -1,6 +1,6 @@
-# files in migrations dir creates manually
+### files in migrations dir creates manually
 
-# then `yarn truffle migrate` or `yarn truffle migrate --reset`
+then `yarn truffle migrate` or `yarn truffle migrate --reset`
 
 ```
 yarn truffle compile
