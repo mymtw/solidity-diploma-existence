@@ -1,0 +1,75 @@
+{
+  "contracts": {
+    "MyLearn": {
+      "address": "0x4498e806988f1c43dEEC89A3bb570F8F517DF482",
+      "constructorCode": "608060405234801561001057600080fd5b5061010a806100206000396000f3fe",
+      "bodyBytecodeHash": "0222e7cd0cef473dcc3f461d26d9a08706710bfa997973b33c8ae47ee4f37d74",
+      "localBytecodeHash": "f832ce6f42388ea20daab3cadc540f776b890e6b595068a5e9cb2bedb704fa51",
+      "deployedBytecodeHash": "f832ce6f42388ea20daab3cadc540f776b890e6b595068a5e9cb2bedb704fa51",
+      "types": {
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        }
+      },
+      "storage": [
+        {
+          "contract": "MyLearn",
+          "path": "contracts/MyLearn.sol",
+          "label": "a",
+          "astId": 173,
+          "type": "t_uint256",
+          "src": "55:13:3"
+        },
+        {
+          "contract": "MyLearn",
+          "path": "contracts/MyLearn.sol",
+          "label": "b",
+          "astId": 175,
+          "type": "t_uint256",
+          "src": "72:13:3"
+        },
+        {
+          "contract": "MyLearn",
+          "path": "contracts/MyLearn.sol",
+          "label": "c",
+          "astId": 177,
+          "type": "t_uint256",
+          "src": "89:13:3"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "payments/MyLearn": [
+      {
+        "address": "0x2f78040D4f1f4E63fD620A45bcBd06Fbb6659b00",
+        "version": "0.1.1",
+        "implementation": "0x4498e806988f1c43dEEC89A3bb570F8F517DF482",
+        "admin": "0x598F3653edb14FC90D128A8c45d9E324BDBC2548",
+        "kind": "Upgradeable"
+      },
+      {
+        "address": "0x80D7DbD096fCcFF680AC0EA866A78e930EC8D9cb",
+        "version": "0.1.1",
+        "implementation": "0x4498e806988f1c43dEEC89A3bb570F8F517DF482",
+        "admin": "0x598F3653edb14FC90D128A8c45d9E324BDBC2548",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "0.1.1",
+  "proxyAdmin": {
+    "address": "0x598F3653edb14FC90D128A8c45d9E324BDBC2548"
+  }
+}
